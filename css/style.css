@@ -93,3 +93,66 @@ img {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+.intro-page {
+  display: flex;
+}
+
+
+/* HERO */
+.hero {
+  --text-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 570px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: var(--text-color)
+}
+
+.hero-main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 55px 60px;
+  background-color: #222;
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero-badge {
+  padding: 5px 15px;
+  border-radius: 41px;
+  border: 1px solid var(--text-color);
+  font-size: 14px;
+  margin-bottom: 60px;
+  line-height: normal;
+  font-weight: 500;
+}
+
+.hero-heading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding-right: 30px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.hero-text {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+
+}
+.hero-bottom {
+  background-color: var(--green);
+  padding: 28px;
+  font-size: 19px;
+  text-align: center;
+}
