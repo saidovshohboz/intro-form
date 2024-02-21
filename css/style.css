@@ -241,6 +241,17 @@ img {
 }
 
 
+@media only screen and (max-width: 950px) {
+  .hero-main {
+    padding: 60px 45px;
+  }
+
+  .signup-form {
+    padding: 60px 45px;
+  }
+}
+
+
 @media only screen and (max-width: 900px) {
   .main-content {
     padding-top: 50px;
@@ -273,5 +284,16 @@ img {
 
   .signup-form-heading {
     font-size: 28px;
+  }
+
+  .signup-form {
+    padding: 50px 40px;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .signup-form {
+    padding: 50px 36px;
   }
 }
