@@ -228,3 +228,50 @@ img {
   font-weight: 500;
   color: var(--red);
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .hero-heading {
+    font-size: 30px;
+  }
+
+  .signup-form-heading {
+    font-size: 28px;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .main-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .intro-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    margin-bottom: 24px;
+  }
+
+  .hero-heading {
+    font-size: 36px;
+  }
+
+  .signup-form-heading {
+    font-size: 32px;
+  }
+}
+
+
+@media only screen and (max-width: 550px) {
+  .hero-heading {
+    font-size: 30px;
+  }
+
+  .signup-form-heading {
+    font-size: 28px;
+  }
+}
